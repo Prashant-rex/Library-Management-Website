@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+<script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+</script>  
+  
+	<link rel="stylesheet" type="text/css" href="signup.css">
+
+
+<title>Signup</title>
+</head>
+<body background="95511251-grey-background-pattern-canvas-texture-with-delicate-vignette-subtle-background-high-resolution-phot.jpg">
+<div style="color: white; margin: 20px; margin-bottom:0px; margin-left: 0px; padding: 10px; text-align: center; background: #333; width: 98.65%">
+  <h1>LIBRARY MANAGEMENT SYSTEM</h1>
+ </div>
+	<div class="topnav">
+
+		<a class="active" href="#Library Management">Library Management</a>
+  		<a href="Home.html">Home</a>
+  		<a href="project html.html">Books</a>
+  		<a href="book search.html">Book Search</a>
+  		<a href="navigation.html">Navigation</a>
+  		<a href="signup.html">Sign up</a>
+  		<a href="login.html">Login</a>
+  		<a href="about us.html">About us</a>
+	</div>
+	<div style="color: white; margin: 20px; margin-bottom:0px; margin-left: 0px; padding: 10px; padding-bottom: 5px; text-align: center; background: #333; width: 98.65%">
+<h1>Sign Up</h1>
+<form>
+<input type="text" placeholder="First Name"><br>
+<input type="text" placeholder="Last Name"><br>
+<input type="number" placeholder="Registration no"><br>
+<input type="email" placeholder="Email"><br>
+<input type="number" placeholder="Age"><br>
+<input type="number" placeholder="Mobile no."><br>
+<input type="password" placeholder="Password"><br>
+<input type="password" placeholder="Confirm Password"><br>
+ <label for="gender">Gender</label>
+    <select id="gender" name="Gender">
+      <option value="Male">Male</option>
+      <option value="female">Female</option>
+      <option value="prefer not to tell">Prefer not to tell</option>
+    </select>
+    <br>
+<input type="submit" value= "Submit">
+</form>
+</div>
+</body>
+</html>

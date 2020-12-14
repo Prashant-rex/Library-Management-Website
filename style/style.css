@@ -1,0 +1,82 @@
+/**{
+	margin: 0;
+	padding: 0;
+}
+*/
+a{
+	text-decoration:none;
+	color:green; 
+}
+
+a:hover{
+	color: aqua;
+
+}
+
+
+
+
+
+h1{
+
+	text-decoration: underline;
+	text-align: center;
+	color: red;
+}
+
+
+
+body
+{
+	color:coral;
+	font-family: Comic sans MS, cursive ,sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	/* same as above
+	font: bold 20px cursive, sans-serif ;
+	*/
+
+	line-height: 1.6em;
+	margin:10;  
+}
+
+
+.box-1{
+	background-color: : coral;
+	font-color: blue;
+	font-size: 50px;
+	border-radius: 100px;
+	border-left: 5px red solid;
+	border-right: 5px red solid;
+	border-bottom: 5px red solid;
+	border-top: 5px red solid;
+	/*border-style: dotted;*/
+	padding: 20px;
+
+
+	/* same as above
+	 border: 5px red solid;
+	 */
+}
+
+.con{
+	width: 80%;
+	margin: auto;
+	
+}
+
+.Links{
+	text-align: center;
+	background-color: coral;
+	border:5px red solid;
+	padding: 10px;
+	border-radius: 100px;
+	margin: 20px;
+
+}
+
+.Links h2{
+	text-align: center;
+	color: red;
+	text-decoration: underline;
+}
